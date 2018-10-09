@@ -4,7 +4,7 @@
 #install.packages("mice") 
 #install.packages("Hmisc")
 
-telco=read.csv("/Users/kumarbipulesh/Google Drive/Stevens-Study-1st-Sem/BIA-652-B (Multivariate Data Analysis I)/Group Project/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+telco=read.csv("Telco-Customer-Churn.csv")
 
 summary(telco)
 library(ggplot2)
